@@ -1,6 +1,7 @@
 
 import './App.css';
-import UseStateHook from './components/UseStateHook';
+import UseEffectHook from './components/UseEffectHook';
+// import UseStateHook from './components/UseStateHook';
 
 
 
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <p>Hello World</p>
-     <UseStateHook/>
+      {/* <p>Hello World</p> */}
+     {/* <UseStateHook/> */}
+     <UseEffectHook />
     </div>
   );
 }
